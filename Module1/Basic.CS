@@ -1,43 +1,47 @@
-namespace Module1{
-class Basic
+namespace Module1
 {
-    static void Main(String[] args)
+    class Basic
     {
-        Console.WriteLine("hello world");
-        Console.Write("this is ");
-        Console.Write("also in single line");
-        Console.WriteLine();
-        Console.WriteLine(123);
-        Console.WriteLine("0.23F");
-        Console.WriteLine(true);
- 
-        //DT and variables
-        int num=12;
-        String str="hello";
-        string str1="hehe";
-        char ch='a';
-        bool isit=false;
-        Console.WriteLine(str);
-        Console.WriteLine(str1);
-        Console.WriteLine(isit);
+        static void Main(String[] args)
+        {
+            Console.WriteLine("hello world");
+            Console.Write("this is ");
+            Console.Write("also in single line");
+            Console.WriteLine();
+            Console.WriteLine(123);
+            Console.WriteLine("0.23F");
+            Console.WriteLine(true);
 
-        //explicit typecasting 
-        double someNum=1.234;
-        int typeCast=(int)someNum;
-        Console.WriteLine(typeCast);
-        //built in mehtods
-        Console.WriteLine(Convert.ToInt32(someNum));
-        Console.WriteLine(Convert.ToString(someNum));
-        
-        
-        
+            //DT and variables
+            int num = 12;
+            double dub=2.55D;
+            String str = "hello";
+            string str1 = "hehe";
+            char ch = 'a';
+            bool isit = false;
+            Console.WriteLine(str);
+            Console.WriteLine(str1);
+            Console.WriteLine(isit);
+
+            // explicit typecasting
+            double someNum = 1.234;
+            int typeCast = (int)someNum;
+            Console.WriteLine(typeCast);
+
+            // built-in methods
+            Console.WriteLine(Convert.ToInt32(someNum));
+            Console.WriteLine(Convert.ToString(someNum));
+
+            const int noChange=123;
+
+            int x,y,z;
+            x=z=y=50;
+            Console.WriteLine(x+y+z);
 
 
-        
+
+
+
+        }
     }
 }
-}
-
-
-
-
